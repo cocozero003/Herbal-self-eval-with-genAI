@@ -1,0 +1,6 @@
+click
+pdfminer.six
+pandas
+openai
+pydantic
+pyyaml

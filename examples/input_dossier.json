@@ -1,0 +1,9 @@
+{
+  "product_name": "Herbal X",
+  "notification_no": "...",
+  "files": {
+    "monograph": "data/monographs/sample.pdf",
+    "stability": "data/stability_reports/sample.csv",
+    "traditional_use": "data/traditional_use/sample.csv"
+  }
+}

@@ -1,0 +1,16 @@
+[project]
+name = "herbal-self-eval"
+version = "0.1.0"
+description = "GenAI-Powered Herbal Product Self-Evaluation Pilot"
+dependencies = [
+    "click",
+    "pdfminer.six",
+    "pandas",
+    "openai",
+    "pydantic",
+    "pyyaml",
+]
+dynamic = ["readme"]
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
