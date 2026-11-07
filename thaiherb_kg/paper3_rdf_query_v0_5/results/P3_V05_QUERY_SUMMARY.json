@@ -1,0 +1,18 @@
+{
+  "source_snapshot": "P3_V3_208_LOCKED.csv",
+  "source_sha256": "59f91465413937b2ecbd58d8726fd691f965db76fa8377026933169fbb081774",
+  "cases": 8,
+  "model_case_runs": 24,
+  "rdf_triple_counts": {
+    "M1": 207,
+    "M2": 1501,
+    "M3": 2733
+  },
+  "m1_platelet_spo_count": 2,
+  "m2_platelet_assertion_count": 3,
+  "m3_platelet_assertion_count": 3,
+  "comparison_endpoint": "REPRESENTATION_DIAGNOSTIC_ONLY",
+  "expert_gold": "NOT_DONE",
+  "shacl_status": "NOT_RUN_DEPENDENCY_UNAVAILABLE",
+  "accuracy": "NOT_EVALUATED"
+}
