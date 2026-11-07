@@ -1,0 +1,56 @@
+name: Paper2 v1.3 full reproducibility (manual, authorized Drive ZIP)
+on:
+  workflow_dispatch:
+    inputs:
+      drive_file_id:
+        description: "Google Drive full archive ID (requires authorized shared access)"
+        required: true
+        default: "1CLSvyUsF_8GEDgRhtYlVLMAAD3PWdXmE"
+      expected_sha256:
+        description: "Expected SHA-256 checksum for immutable ZIP"
+        required: true
+        default: "15c94317001f9b10d3788a51fa75daea1d7350e8e81ad9d7a3371ab8c76a61ef"
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch exactly specified research ZIP
+        env:
+          DRIVE_FILE_ID: ${{ inputs.drive_file_id }}
+        run: |
+          python -m pip install -q gdown
+          gdown --id "$DRIVE_FILE_ID" --output thaiherb_full.zip
+      - name: Verify immutable input and unzip
+        env:
+          EXPECTED_SHA256: ${{ inputs.expected_sha256 }}
+        run: |
+          echo "$EXPECTED_SHA256  thaiherb_full.zip" | sha256sum --check -
+          mkdir -p research
+          unzip -q thaiherb_full.zip -d research
+      - name: Install scientific runtime
+        run: python -m pip install -r research/requirements.txt
+      - name: Run frozen v0.4 and expanded Paper2 v1.3 experiments
+        working-directory: research
+        run: |
+          python src/run_robustness.py
+          python src/run_sensitivity_extensions.py
+          python src/paired_formula_bootstrap.py
+          python -m pytest -q tests
+      - name: Upload exact research outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper2-v13-replay-results
+          path: |
+            research/results/P2_LOFO_SUMMARY_CLUSTER_BOOTSTRAP.csv
+            research/results/P2_PERTURBATION_SUMMARY.csv
+            research/results/P2_SOURCE_HOLDOUT_COVERAGE.csv
+            research/results/P2_PAIRED_CLUSTER_BOOTSTRAP_VS_PAIRSUPPORT.csv
+            research/results/P2_PROVISIONAL_CLASS_MATERIAL_SENSITIVITY_20SEEDS.csv
+          if-no-files-found: warn
