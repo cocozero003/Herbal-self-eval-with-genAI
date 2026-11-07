@@ -1,0 +1,4 @@
+rdflib>=7.3,<8
+pytest>=8,<10
+# Optional, REQUIRED before claiming a real SHACL Core result:
+# pyshacl>=0.31,<0.41
