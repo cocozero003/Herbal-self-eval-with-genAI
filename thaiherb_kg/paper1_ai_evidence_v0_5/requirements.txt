@@ -1,0 +1,5 @@
+numpy>=2.0,<3
+scipy>=1.13,<2
+gensim>=4.3,<5
+python-docx>=1.1,<2
+pytest>=8,<10
