@@ -1,0 +1,55 @@
+"""Create a self-contained offline evidence qualification dashboard with no remote scripts."""
+import csv,json,html
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1];p=ROOT/'results/v06'
+def rows(name):
+ with open(p/name,encoding='utf-8-sig') as f:return list(csv.DictReader(f))
+def js(obj):return json.dumps(obj,ensure_ascii=False).replace('</','<\\/')
+assertions=rows('assertion_evidence_qualification_30.csv')
+source=rows('herb_source_independence_10.csv')
+model=rows('source_holdout_model_summary.csv')
+blocked=rows('source_holdout_embedding_eligibility_12.csv')
+manifest=json.loads((p/'evidence_qualification_manifest.json').read_text())
+style='''
+:root{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:#142b36;background:#f5f8f9}
+*{box-sizing:border-box}body{margin:0}.shell{max-width:1270px;margin:auto;padding:32px 25px}
+.hero{background:#123b49;color:#fff;border-radius:19px;padding:30px 35px;margin-bottom:22px}
+.hero h1{font-size:2rem;letter-spacing:-1px;margin:7px 0}.hero p{opacity:.9;margin:8px 0 0;line-height:1.5}
+.tag{font-size:11px;letter-spacing:1.5px;font-weight:750;color:#bbe3c9;text-transform:uppercase}
+.notice{background:#fff6dc;padding:14px 18px;border-left:4px solid #be7a10;margin-bottom:22px;border-radius:8px;color:#594220;font-size:14px;line-height:1.55}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:25px}.metric,.panel{border:1px solid #dce8ec;background:#fff;border-radius:12px;padding:18px}.metric strong{display:block;font-size:31px;letter-spacing:-.8px}.metric span{font-size:12px;color:#597079}
+nav{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:16px}button{border:1px solid #bbced7;background:#fff;color:#235065;border-radius:7px;padding:9px 15px;cursor:pointer;font-size:13px}button.active{background:#185369;color:white;border-color:#185369}h2{font-size:21px;margin:0 0 12px}p{line-height:1.6}
+.tab{display:none}.tab.active{display:block}.control{display:flex;gap:10px;margin:8px 0 16px;flex-wrap:wrap}input,select{border:1px solid #c6d3d8;padding:10px;border-radius:8px;background:#fff;min-width:180px;flex:1}table{border-collapse:collapse;width:100%;font-size:12.5px}th{text-align:left;background:#e9f1f3;padding:10px 11px;white-space:nowrap;position:sticky;top:0}td{padding:10px 11px;border-top:1px solid #e6eef0;line-height:1.4;max-width:235px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}tr:hover td{background:#f8fbfb}.tbl{max-height:630px;overflow:auto;border-radius:8px;border:1px solid #e4ecee}
+a{color:#0e697b;text-decoration:none}a:hover{text-decoration:underline}.muted{font-size:12px;color:#5b6e75}.strong{font-weight:700}.status{font-size:10px;display:inline-block;background:#e5f1ee;color:#21614f;padding:4px 7px;border-radius:5px}
+@media(max-width:720px){.shell{padding:15px}.hero{padding:23px}.metrics{grid-template-columns:repeat(2,1fr)}.metric strong{font-size:23px}.tbl{overflow:auto}table{min-width:860px}.hero h1{font-size:1.55rem}}
+'''
+script=r'''
+const data=window.RESEARCH_DATA;
+const esc=x=>String(x??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
+function activate(tab,btn){document.querySelectorAll('.tab').forEach(e=>e.classList.toggle('active',e.id===tab));document.querySelectorAll('nav button').forEach(e=>e.classList.remove('active'));btn.classList.add('active')}
+function tableRows(items,cols){return `<div class="tbl"><table><thead><tr>${cols.map(c=>`<th>${esc(c[1])}</th>`).join('')}</tr></thead><tbody>${items.map(r=>`<tr>${cols.map(c=>`<td title="${esc(r[c[0]])}">${c[2]?c[2](r):esc(r[c[0]])}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`}
+const link=(url,title)=>url?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(title||url)}</a>`:'-';
+function renderEvidence(){let q=document.querySelector('#find').value.trim().toLowerCase(),herb=document.querySelector('#herb').value;let items=data.assertions.filter(r=>(!herb||r.herb_id===herb)&&(!q||Object.values(r).join(' ').toLowerCase().includes(q)));
+ document.querySelector('#evidence-count').textContent=`${items.length} assertions`;document.querySelector('#evidence').innerHTML=tableRows(items,[['assertion_id','Assertion'],['herb_id','Herb'],['compound','Compound'],['qualification_status','Qualification'],['additional_source_keys','Additional source keys'],['context_limitation','Scientific caution'],['additional_source_urls','Source',r=>r.additional_source_urls.split(';').filter(Boolean).map((x,i)=>link(x,`Study ${i+1}`)).join(' / ')],['independent_expert_validated','Expert adjudicated']]);}
+function init(){document.querySelector('#evidence-count').textContent='';renderEvidence();
+ document.querySelector('#herbs').innerHTML=tableRows(data.herbs,[['herb_id','Herb'],['original_assertions','Assertions'],['original_distinct_sources','Original sources'],['added_candidate_study_urls','New studies / gov. sources'],['original_single_source_fragility','Single-source dependence']]);
+ document.querySelector('#holdouts').innerHTML=tableRows(data.holdouts,[['removed_source_id','Removed source'],['source_assertions_removed','Dropped assertions'],['herbs_without_any_chemistry','Herbs without chemistry'],['unrepresented_herbs','Unrepresented herb IDs']]);
+ document.querySelector('#model').innerHTML=tableRows(data.model,[['source_removed','Removed source'],['model','Channel'],['mean_rank_rho','Spearman rho'],['mean_top5_overlap','Top 5 overlap'],['seeds','Seeds']]);
+ document.querySelector('#risk').innerHTML=tableRows(data.eligibility,[['source_removed','Removed source'],['rows_removed','Rows removed'],['herbs_missing_chemistry','Herb missing chemistry'],['reason','Interpretation']]);
+ document.querySelector('#find').addEventListener('input',renderEvidence);document.querySelector('#herb').addEventListener('change',renderEvidence);
+}document.addEventListener('DOMContentLoaded',init);
+'''
+payload={'assertions':assertions,'herbs':source,'holdouts':rows('leave_one_source_out_12.csv'),'model':model,'eligibility':blocked,'meta':manifest}
+page=f'''<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ThaiHerb Paper 1 | v0.6 Evidence Qualification</title><style>{style}</style></head><body>
+<div class="shell"><section class="hero"><div class="tag">ThaiHerb Research / Paper 1 / v0.6</div><h1>Evidence Quality and Source Independence</h1><p>AI-assisted chemistry citation qualification, original-source dependency, and eligible Chem/Core source-holdout experiments.</p></section>
+<div class="notice"><strong>Research integrity:</strong> This is a proxy-data, AI-assisted literature review, not independent expert validation or recovered original manuscript embeddings. Additional references are post-hoc and must not be counted as an independent gold standard. "Source removed" means original ledger sources, not all new corroborating sources.</div>
+<div class="metrics"><div class="metric"><strong>30</strong><span>Herb–compound assertions</span></div><div class="metric"><strong>12</strong><span>Original source IDs</span></div><div class="metric"><strong>8/12</strong><span>Holdouts invalidate full coverage</span></div><div class="metric"><strong>80</strong><span>Eligible paired-seed model comparisons</span></div></div>
+<nav><button class="active" onclick="activate('overview',this)">Overview</button><button onclick="activate('chemistry',this)">Chemistry citations</button><button onclick="activate('source',this)">Source coverage</button><button onclick="activate('sensitivity',this)">Holdout results</button><button onclick="activate('methodology',this)">Limitations</button></nav>
+<section id="overview" class="tab active panel"><h2>What this upgrade tests</h2><p>Source independence is different from seed stability. The 30 originally curated herb–compound associations depend on 12 source IDs. Eight of ten herbs are supported by only one original source ID, so removing those sources creates entirely unrepresented herbs in the chemistry projection.</p><p>The new review adds candidate publicly available corroborating sources for 23 of 30 assertions. These citations still require independent primary full-text adjudication, plant-part assessment and source-to-row checks. Original Paper 1 chemistry class mapping is not recovered.</p><p>Experiments using four eligible source holdouts preserve the same ten herbs and 45 pair universe. Rankings after dropping a source describe <strong>model sensitivity, not therapeutic similarity validity</strong>.</p></section>
+<section id="chemistry" class="tab panel"><h2>Chemistry evidence and caveats</h2><div class="control"><input id="find" placeholder="Search compound, source, caution"><select id="herb"><option value="">All herbs</option>{''.join(f'<option value="H{i:02d}">H{i:02d}</option>' for i in range(1,11))}</select></div><p class="muted" id="evidence-count"></p><div id="evidence"></div></section>
+<section id="source" class="tab panel"><h2>Source dependence by herb</h2><div id="herbs"></div><h2 style="margin-top:24px">Leave-one-source-out coverage</h2><div id="holdouts"></div></section>
+<section id="sensitivity" class="tab panel"><h2>Eligible model reruns</h2><p>Ten paired random seeds per source/model; the four eligible holdouts retain chemistry evidence for all ten herbs. Mean Spearman measures changes in ranks compared with v0.5 candidate 19-class model.</p><div id="model"></div><h2 style="margin-top:24px">Coverage gates</h2><div id="risk"></div></section>
+<section id="methodology" class="tab panel"><h2>Important limitations</h2><p><strong>Literature evidence is not training-independent:</strong> corroborating citations were selected after the 30-compound panel was defined; this is not a held-out truth standard.</p><p><strong>Identity is not occurrence:</strong> PubChem IDs identify molecules but do not demonstrate presence in a plant, plant part or extraction method.</p><p><strong>Taxonomy:</strong> the 19 class v0.5 candidate labels are not verified to match the reported original 19 classes.</p><p><strong>Context mismatches:</strong> red-cultivar holy basil is not proven by generic O. tenuiflorum studies; distilled garlic oil constituents should not be assumed present in unprocessed cloves; some mixed Glycyrrhizae Radix samples do not resolve G. glabra.</p><p><strong>Review independence:</strong> an AI-assisted review is not a pair of independent human experts. Gold-label fields remain blank.</p></section>
+<footer style="margin-top:26px" class="muted">Research prototype | 2026-11-07 | Sources linked in evidence table | Offline single HTML file</footer></div>
+<script>window.RESEARCH_DATA={js(payload)};</script><script>{script}</script></body></html>'''
+path=ROOT/'dashboard/Paper1_Source_Independence_v0.6.html';path.write_text(page,encoding='utf-8');print(path,len(page))
