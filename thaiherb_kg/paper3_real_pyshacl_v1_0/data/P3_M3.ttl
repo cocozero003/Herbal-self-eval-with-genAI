@@ -1,0 +1,2991 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix th: <urn:thaiherb:v04:> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:thaiherb:v04:assertion:CA001> a th:EvidenceAssertion ;
+    dct:identifier "CA001" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GINGER> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_558C91B6FEC8> ;
+    th:objectLabel "6-gingerol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H01> .
+
+<urn:thaiherb:v04:assertion:CA002> a th:EvidenceAssertion ;
+    dct:identifier "CA002" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GINGER> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_83BCAD8C631C> ;
+    th:objectLabel "6-shogaol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H01> .
+
+<urn:thaiherb:v04:assertion:CA003> a th:EvidenceAssertion ;
+    dct:identifier "CA003" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GINGER> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_F1367F0B7B76> ;
+    th:objectLabel "zingerone" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H01> .
+
+<urn:thaiherb:v04:assertion:CA004> a th:EvidenceAssertion ;
+    dct:identifier "CA004" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GINGER> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_C6204A007BE2> ;
+    th:objectLabel "6-paradol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H01> .
+
+<urn:thaiherb:v04:assertion:CA005> a th:EvidenceAssertion ;
+    dct:identifier "CA005" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GINGER> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_EF936F198757> ;
+    th:objectLabel "zingiberene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H01> .
+
+<urn:thaiherb:v04:assertion:CA006> a th:EvidenceAssertion ;
+    dct:identifier "CA006" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_RETRO> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_C2755935336B> ;
+    th:objectLabel "piperine" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H02> .
+
+<urn:thaiherb:v04:assertion:CA007> a th:EvidenceAssertion ;
+    dct:identifier "CA007" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_RETRO> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_878C57D2E706> ;
+    th:objectLabel "pellitorine" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H02> .
+
+<urn:thaiherb:v04:assertion:CA008> a th:EvidenceAssertion ;
+    dct:identifier "CA008" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_RETRO> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_3CC0846FE106> ;
+    th:objectLabel "piperlongumine" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H02> .
+
+<urn:thaiherb:v04:assertion:CA009> a th:EvidenceAssertion ;
+    dct:identifier "CA009" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_RETRO> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_D98ECA53C8AB> ;
+    th:objectLabel "piperolein B" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H02> .
+
+<urn:thaiherb:v04:assertion:CA010> a th:EvidenceAssertion ;
+    dct:identifier "CA010" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_RETRO> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_84B6C972670B> ;
+    th:objectLabel "guineensine" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H02> .
+
+<urn:thaiherb:v04:assertion:CA011> a th:EvidenceAssertion ;
+    dct:identifier "CA011" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_BLACK> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_C2755935336B> ;
+    th:objectLabel "piperine" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H03> .
+
+<urn:thaiherb:v04:assertion:CA012> a th:EvidenceAssertion ;
+    dct:identifier "CA012" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_BLACK> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_3915C0580AF6> ;
+    th:objectLabel "beta-caryophyllene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H03> .
+
+<urn:thaiherb:v04:assertion:CA013> a th:EvidenceAssertion ;
+    dct:identifier "CA013" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_BLACK> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_9A3EE9934AEA> ;
+    th:objectLabel "limonene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H03> .
+
+<urn:thaiherb:v04:assertion:CA014> a th:EvidenceAssertion ;
+    dct:identifier "CA014" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_BLACK> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_8F3E9444C629> ;
+    th:objectLabel "sabinene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H03> .
+
+<urn:thaiherb:v04:assertion:CA015> a th:EvidenceAssertion ;
+    dct:identifier "CA015" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_BLACK> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_0E4000FF7F68> ;
+    th:objectLabel "alpha-pinene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H03> .
+
+<urn:thaiherb:v04:assertion:CA016> a th:EvidenceAssertion ;
+    dct:identifier "CA016" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GARLIC> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_F25FD068E0CF> ;
+    th:objectLabel "allicin" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H04> .
+
+<urn:thaiherb:v04:assertion:CA017> a th:EvidenceAssertion ;
+    dct:identifier "CA017" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GARLIC> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_D9557395D261> ;
+    th:objectLabel "alliin" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H04> .
+
+<urn:thaiherb:v04:assertion:CA018> a th:EvidenceAssertion ;
+    dct:identifier "CA018" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GARLIC> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_00EA1E3EBC94> ;
+    th:objectLabel "diallyl sulfide" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H04> .
+
+<urn:thaiherb:v04:assertion:CA019> a th:EvidenceAssertion ;
+    dct:identifier "CA019" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GARLIC> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_A67081BC7AA3> ;
+    th:objectLabel "diallyl disulfide" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H04> .
+
+<urn:thaiherb:v04:assertion:CA020> a th:EvidenceAssertion ;
+    dct:identifier "CA020" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GARLIC> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_A5DF40090CD9> ;
+    th:objectLabel "ajoene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H04> .
+
+<urn:thaiherb:v04:assertion:CA021> a th:EvidenceAssertion ;
+    dct:identifier "CA021" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PLAI> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_8F3E9444C629> ;
+    th:objectLabel "sabinene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H05> .
+
+<urn:thaiherb:v04:assertion:CA022> a th:EvidenceAssertion ;
+    dct:identifier "CA022" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PLAI> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_A0BAFEEF48AB> ;
+    th:objectLabel "DMPBD" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H05> .
+
+<urn:thaiherb:v04:assertion:CA023> a th:EvidenceAssertion ;
+    dct:identifier "CA023" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PLAI> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_4FE72D3747DD> ;
+    th:objectLabel "terpinen-4-ol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H05> .
+
+<urn:thaiherb:v04:assertion:CA024> a th:EvidenceAssertion ;
+    dct:identifier "CA024" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PLAI> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_A2D9B0B1A3BD> ;
+    th:objectLabel "gamma-terpinene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H05> .
+
+<urn:thaiherb:v04:assertion:CA025> a th:EvidenceAssertion ;
+    dct:identifier "CA025" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PLAI> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_F2E2DEDA0F5E> ;
+    th:objectLabel "beta-phellandrene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H05> .
+
+<urn:thaiherb:v04:assertion:CA026> a th:EvidenceAssertion ;
+    dct:identifier "CA026" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GALANGAL> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_680B5BBD0124> ;
+    th:objectLabel "1'-acetoxychavicol acetate" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H06> .
+
+<urn:thaiherb:v04:assertion:CA027> a th:EvidenceAssertion ;
+    dct:identifier "CA027" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GALANGAL> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_6533754CB932> ;
+    th:objectLabel "1'-acetoxyeugenol acetate" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H06> .
+
+<urn:thaiherb:v04:assertion:CA028> a th:EvidenceAssertion ;
+    dct:identifier "CA028" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GALANGAL> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_D5DAB163EB7E> ;
+    th:objectLabel "galangin" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H06> .
+
+<urn:thaiherb:v04:assertion:CA029> a th:EvidenceAssertion ;
+    dct:identifier "CA029" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GALANGAL> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_8299B4805809> ;
+    th:objectLabel "kaempferol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H06> .
+
+<urn:thaiherb:v04:assertion:CA030> a th:EvidenceAssertion ;
+    dct:identifier "CA030" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_GALANGAL> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_2916DD23977F> ;
+    th:objectLabel "1,8-cineole" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H06> .
+
+<urn:thaiherb:v04:assertion:CA031> a th:EvidenceAssertion ;
+    dct:identifier "CA031" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_BASIL> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_A9318BE59224> ;
+    th:objectLabel "rosmarinic acid" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H07> .
+
+<urn:thaiherb:v04:assertion:CA032> a th:EvidenceAssertion ;
+    dct:identifier "CA032" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_BASIL> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_AF9F159D1DDC> ;
+    th:objectLabel "oleanolic acid" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H07> .
+
+<urn:thaiherb:v04:assertion:CA033> a th:EvidenceAssertion ;
+    dct:identifier "CA033" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_BASIL> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_236E004F9457> ;
+    th:objectLabel "luteolin" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H07> .
+
+<urn:thaiherb:v04:assertion:CA034> a th:EvidenceAssertion ;
+    dct:identifier "CA034" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_BASIL> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_46C1247DB29D> ;
+    th:objectLabel "ursolic acid" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H07> .
+
+<urn:thaiherb:v04:assertion:CA035> a th:EvidenceAssertion ;
+    dct:identifier "CA035" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_BASIL> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_18F9C38ACED7> ;
+    th:objectLabel "eugenol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H07> .
+
+<urn:thaiherb:v04:assertion:CA036> a th:EvidenceAssertion ;
+    dct:identifier "CA036" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_LICORICE> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_C231E02A75A1> ;
+    th:objectLabel "glycyrrhizin" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H08> .
+
+<urn:thaiherb:v04:assertion:CA037> a th:EvidenceAssertion ;
+    dct:identifier "CA037" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_LICORICE> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_32330EB50850> ;
+    th:objectLabel "liquiritin" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H08> .
+
+<urn:thaiherb:v04:assertion:CA038> a th:EvidenceAssertion ;
+    dct:identifier "CA038" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_LICORICE> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_52548AAFBBE7> ;
+    th:objectLabel "liquiritigenin" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H08> .
+
+<urn:thaiherb:v04:assertion:CA039> a th:EvidenceAssertion ;
+    dct:identifier "CA039" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_LICORICE> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_2B5E00A936C3> ;
+    th:objectLabel "isoliquiritigenin" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H08> .
+
+<urn:thaiherb:v04:assertion:CA040> a th:EvidenceAssertion ;
+    dct:identifier "CA040" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_LICORICE> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_BB8EB932C3A5> ;
+    th:objectLabel "glabridin" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H08> .
+
+<urn:thaiherb:v04:assertion:CA041> a th:EvidenceAssertion ;
+    dct:identifier "CA041" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CLOVE> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_18F9C38ACED7> ;
+    th:objectLabel "eugenol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H09> .
+
+<urn:thaiherb:v04:assertion:CA042> a th:EvidenceAssertion ;
+    dct:identifier "CA042" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CLOVE> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_C664CFD93A71> ;
+    th:objectLabel "eugenyl acetate" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H09> .
+
+<urn:thaiherb:v04:assertion:CA043> a th:EvidenceAssertion ;
+    dct:identifier "CA043" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CLOVE> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_3915C0580AF6> ;
+    th:objectLabel "beta-caryophyllene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H09> .
+
+<urn:thaiherb:v04:assertion:CA044> a th:EvidenceAssertion ;
+    dct:identifier "CA044" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CLOVE> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_D9D19CE0C3A0> ;
+    th:objectLabel "alpha-humulene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H09> .
+
+<urn:thaiherb:v04:assertion:CA045> a th:EvidenceAssertion ;
+    dct:identifier "CA045" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CLOVE> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_F85E092DA5B5> ;
+    th:objectLabel "methyl salicylate" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H09> .
+
+<urn:thaiherb:v04:assertion:CA046> a th:EvidenceAssertion ;
+    dct:identifier "CA046" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_KAFFIR> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_2DF7AFDF548B> ;
+    th:objectLabel "beta-pinene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H10> .
+
+<urn:thaiherb:v04:assertion:CA047> a th:EvidenceAssertion ;
+    dct:identifier "CA047" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_KAFFIR> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_9A3EE9934AEA> ;
+    th:objectLabel "limonene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H10> .
+
+<urn:thaiherb:v04:assertion:CA048> a th:EvidenceAssertion ;
+    dct:identifier "CA048" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_KAFFIR> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_8F3E9444C629> ;
+    th:objectLabel "sabinene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H10> .
+
+<urn:thaiherb:v04:assertion:CA049> a th:EvidenceAssertion ;
+    dct:identifier "CA049" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_KAFFIR> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_A6242104765F> ;
+    th:objectLabel "citronellal" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H10> .
+
+<urn:thaiherb:v04:assertion:CA050> a th:EvidenceAssertion ;
+    dct:identifier "CA050" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_KAFFIR> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_4FE72D3747DD> ;
+    th:objectLabel "terpinen-4-ol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H10> .
+
+<urn:thaiherb:v04:assertion:CA051> a th:EvidenceAssertion ;
+    dct:identifier "CA051" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CHEBULA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_EDDFD856354E> ;
+    th:objectLabel "chebulagic acid" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H11> .
+
+<urn:thaiherb:v04:assertion:CA052> a th:EvidenceAssertion ;
+    dct:identifier "CA052" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CHEBULA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_E74FE387518C> ;
+    th:objectLabel "chebulinic acid" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H11> .
+
+<urn:thaiherb:v04:assertion:CA053> a th:EvidenceAssertion ;
+    dct:identifier "CA053" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CHEBULA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_7782F42E8472> ;
+    th:objectLabel "corilagin" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H11> .
+
+<urn:thaiherb:v04:assertion:CA054> a th:EvidenceAssertion ;
+    dct:identifier "CA054" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CHEBULA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_1EB9D417A598> ;
+    th:objectLabel "gallic acid" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H11> .
+
+<urn:thaiherb:v04:assertion:CA055> a th:EvidenceAssertion ;
+    dct:identifier "CA055" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CHEBULA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_4400BA278DF9> ;
+    th:objectLabel "ellagic acid" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H11> .
+
+<urn:thaiherb:v04:assertion:CA056> a th:EvidenceAssertion ;
+    dct:identifier "CA056" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CARDAMOM> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_2DF7AFDF548B> ;
+    th:objectLabel "beta-pinene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H12> .
+
+<urn:thaiherb:v04:assertion:CA057> a th:EvidenceAssertion ;
+    dct:identifier "CA057" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CARDAMOM> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_2916DD23977F> ;
+    th:objectLabel "1,8-cineole" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H12> .
+
+<urn:thaiherb:v04:assertion:CA058> a th:EvidenceAssertion ;
+    dct:identifier "CA058" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CARDAMOM> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_538B6783AC5D> ;
+    th:objectLabel "fenchone" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H12> .
+
+<urn:thaiherb:v04:assertion:CA059> a th:EvidenceAssertion ;
+    dct:identifier "CA059" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CARDAMOM> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_50217D0FD446> ;
+    th:objectLabel "trans-pinocarveol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H12> .
+
+<urn:thaiherb:v04:assertion:CA060> a th:EvidenceAssertion ;
+    dct:identifier "CA060" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CARDAMOM> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_93106335021B> ;
+    th:objectLabel "myrtenal" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H12> .
+
+<urn:thaiherb:v04:assertion:CA061> a th:EvidenceAssertion ;
+    dct:identifier "CA061" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_NUTMEG> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_AEEB280718B8> ;
+    th:objectLabel "myristicin" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H13> .
+
+<urn:thaiherb:v04:assertion:CA062> a th:EvidenceAssertion ;
+    dct:identifier "CA062" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_NUTMEG> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_F16B072D43B4> ;
+    th:objectLabel "elemicin" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H13> .
+
+<urn:thaiherb:v04:assertion:CA063> a th:EvidenceAssertion ;
+    dct:identifier "CA063" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_NUTMEG> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_4D04DB75D298> ;
+    th:objectLabel "safrole" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H13> .
+
+<urn:thaiherb:v04:assertion:CA064> a th:EvidenceAssertion ;
+    dct:identifier "CA064" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_NUTMEG> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_8F3E9444C629> ;
+    th:objectLabel "sabinene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H13> .
+
+<urn:thaiherb:v04:assertion:CA065> a th:EvidenceAssertion ;
+    dct:identifier "CA065" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_NUTMEG> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_18F9C38ACED7> ;
+    th:objectLabel "eugenol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H13> .
+
+<urn:thaiherb:v04:assertion:CA066> a th:EvidenceAssertion ;
+    dct:identifier "CA066" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CORIANDER> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_B6891F803FB7> ;
+    th:objectLabel "linalool" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H14> .
+
+<urn:thaiherb:v04:assertion:CA067> a th:EvidenceAssertion ;
+    dct:identifier "CA067" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CORIANDER> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_0D9FCE1E8316> ;
+    th:objectLabel "geraniol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H14> .
+
+<urn:thaiherb:v04:assertion:CA068> a th:EvidenceAssertion ;
+    dct:identifier "CA068" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CORIANDER> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_4FE72D3747DD> ;
+    th:objectLabel "terpinen-4-ol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H14> .
+
+<urn:thaiherb:v04:assertion:CA069> a th:EvidenceAssertion ;
+    dct:identifier "CA069" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CORIANDER> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_9A3EE9934AEA> ;
+    th:objectLabel "limonene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H14> .
+
+<urn:thaiherb:v04:assertion:CA070> a th:EvidenceAssertion ;
+    dct:identifier "CA070" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CORIANDER> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_AB88E92A0886> ;
+    th:objectLabel "camphor" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H14> .
+
+<urn:thaiherb:v04:assertion:CA071> a th:EvidenceAssertion ;
+    dct:identifier "CA071" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_NIGELLA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_962B9AA8818D> ;
+    th:objectLabel "thymoquinone" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H15> .
+
+<urn:thaiherb:v04:assertion:CA072> a th:EvidenceAssertion ;
+    dct:identifier "CA072" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_NIGELLA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_D94E0015A541> ;
+    th:objectLabel "thymohydroquinone" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H15> .
+
+<urn:thaiherb:v04:assertion:CA073> a th:EvidenceAssertion ;
+    dct:identifier "CA073" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_NIGELLA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_5C4536867A94> ;
+    th:objectLabel "thymol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H15> .
+
+<urn:thaiherb:v04:assertion:CA074> a th:EvidenceAssertion ;
+    dct:identifier "CA074" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_NIGELLA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_1DAE5B2DF264> ;
+    th:objectLabel "carvacrol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H15> .
+
+<urn:thaiherb:v04:assertion:CA075> a th:EvidenceAssertion ;
+    dct:identifier "CA075" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_NIGELLA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_546A3D50EA8A> ;
+    th:objectLabel "p-cymene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H15> .
+
+<urn:thaiherb:v04:assertion:CA076> a th:EvidenceAssertion ;
+    dct:identifier "CA076" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_KAEMPFERIA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_8D3DA55F124B> ;
+    th:objectLabel "ethyl p-methoxycinnamate" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H16> .
+
+<urn:thaiherb:v04:assertion:CA077> a th:EvidenceAssertion ;
+    dct:identifier "CA077" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_KAEMPFERIA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_50F76459E5FE> ;
+    th:objectLabel "ethyl cinnamate" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H16> .
+
+<urn:thaiherb:v04:assertion:CA078> a th:EvidenceAssertion ;
+    dct:identifier "CA078" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_KAEMPFERIA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_9A3EE9934AEA> ;
+    th:objectLabel "limonene" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H16> .
+
+<urn:thaiherb:v04:assertion:CA079> a th:EvidenceAssertion ;
+    dct:identifier "CA079" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_KAEMPFERIA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_0280481B76CB> ;
+    th:objectLabel "borneol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H16> .
+
+<urn:thaiherb:v04:assertion:CA080> a th:EvidenceAssertion ;
+    dct:identifier "CA080" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_KAEMPFERIA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_2916DD23977F> ;
+    th:objectLabel "1,8-cineole" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H16> .
+
+<urn:thaiherb:v04:assertion:CA081> a th:EvidenceAssertion ;
+    dct:identifier "CA081" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_ACORUS> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_B1EFEBAA57FB> ;
+    th:objectLabel "alpha-asarone" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H17> .
+
+<urn:thaiherb:v04:assertion:CA082> a th:EvidenceAssertion ;
+    dct:identifier "CA082" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_ACORUS> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_D7F39F6925F2> ;
+    th:objectLabel "beta-asarone" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H17> .
+
+<urn:thaiherb:v04:assertion:CA083> a th:EvidenceAssertion ;
+    dct:identifier "CA083" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_ACORUS> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_D0DAE08730B2> ;
+    th:objectLabel "gamma-asarone" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H17> .
+
+<urn:thaiherb:v04:assertion:CA084> a th:EvidenceAssertion ;
+    dct:identifier "CA084" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_ACORUS> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_47D8949C5360> ;
+    th:objectLabel "methyl eugenol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H17> .
+
+<urn:thaiherb:v04:assertion:CA085> a th:EvidenceAssertion ;
+    dct:identifier "CA085" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_ACORUS> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_AB88E92A0886> ;
+    th:objectLabel "camphor" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H17> .
+
+<urn:thaiherb:v04:assertion:CA086> a th:EvidenceAssertion ;
+    dct:identifier "CA086" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PLUMBAGO> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_889E44353704> ;
+    th:objectLabel "plumbagin" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H18> .
+
+<urn:thaiherb:v04:assertion:CA087> a th:EvidenceAssertion ;
+    dct:identifier "CA087" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PLUMBAGO> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_6DC0815B1E21> ;
+    th:objectLabel "elliptinone" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H18> .
+
+<urn:thaiherb:v04:assertion:CA088> a th:EvidenceAssertion ;
+    dct:identifier "CA088" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PLUMBAGO> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_060AF8A82904> ;
+    th:objectLabel "3,3'-biplumbagin" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H18> .
+
+<urn:thaiherb:v04:assertion:CA089> a th:EvidenceAssertion ;
+    dct:identifier "CA089" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PLUMBAGO> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_BC7D10602761> ;
+    th:objectLabel "droserone" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H18> .
+
+<urn:thaiherb:v04:assertion:CA090> a th:EvidenceAssertion ;
+    dct:identifier "CA090" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PLUMBAGO> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_D6381916A5BA> ;
+    th:objectLabel "zeylanone" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H18> .
+
+<urn:thaiherb:v04:assertion:CA091> a th:EvidenceAssertion ;
+    dct:identifier "CA091" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_SOMPOI> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_CB751219DD09> ;
+    th:objectLabel "concinnoside A" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H19> .
+
+<urn:thaiherb:v04:assertion:CA092> a th:EvidenceAssertion ;
+    dct:identifier "CA092" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_SOMPOI> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_740B5DDBF31D> ;
+    th:objectLabel "concinnoside B" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H19> .
+
+<urn:thaiherb:v04:assertion:CA093> a th:EvidenceAssertion ;
+    dct:identifier "CA093" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_SOMPOI> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_4DC716B4E942> ;
+    th:objectLabel "concinnoside C" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H19> .
+
+<urn:thaiherb:v04:assertion:CA094> a th:EvidenceAssertion ;
+    dct:identifier "CA094" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_SOMPOI> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_38C947FC2CDC> ;
+    th:objectLabel "concinnoside D" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H19> .
+
+<urn:thaiherb:v04:assertion:CA095> a th:EvidenceAssertion ;
+    dct:identifier "CA095" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_SOMPOI> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_primary" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_898F1C58E115> ;
+    th:objectLabel "concinnoside E" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H19> .
+
+<urn:thaiherb:v04:assertion:CA096> a th:EvidenceAssertion ;
+    dct:identifier "CA096" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CURCUMA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_E42E281F448F> ;
+    th:objectLabel "curdione" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H20> .
+
+<urn:thaiherb:v04:assertion:CA097> a th:EvidenceAssertion ;
+    dct:identifier "CA097" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CURCUMA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_2945D173291E> ;
+    th:objectLabel "germacrone" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H20> .
+
+<urn:thaiherb:v04:assertion:CA098> a th:EvidenceAssertion ;
+    dct:identifier "CA098" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CURCUMA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_2916DD23977F> ;
+    th:objectLabel "1,8-cineole" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H20> .
+
+<urn:thaiherb:v04:assertion:CA099> a th:EvidenceAssertion ;
+    dct:identifier "CA099" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CURCUMA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_C83EBEB6301A> ;
+    th:objectLabel "xanthorrhizol" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H20> .
+
+<urn:thaiherb:v04:assertion:CA100> a th:EvidenceAssertion ;
+    dct:identifier "CA100" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CURCUMA> ;
+    th:channel "chemistry" ;
+    th:contextText "source-level; compound-specific table/page locator not uniformly harmonized" ;
+    th:directness "herb_compound_report" ;
+    th:evidenceMode "peer_reviewed_review" ;
+    th:limitationText "Representative fixed compound panel; absence of a compound edge does not mean chemical absence. Review-level sources may aggregate heterogeneous preparations." ;
+    th:object <urn:thaiherb:v04:entity:CMP_9B70FC10A6AA> ;
+    th:objectLabel "curzerenone" ;
+    th:originalStatus "supported_source_report" ;
+    th:predicate <urn:thaiherb:v04:relation:reported_contains> ;
+    th:subject <urn:thaiherb:v04:entity:H20> .
+
+<urn:thaiherb:v04:assertion:CLIN001> a th:EvidenceAssertion ;
+    dct:identifier "CLIN001" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CLIN_RYAN2012> ;
+    th:channel "clinical" ;
+    th:contextText "adult cancer patients receiving chemotherapy; 576 analyzed | ginger 0.5, 1.0, or 1.5 g/day around chemotherapy" ;
+    th:directness "supports_benefit" ;
+    th:evidenceMode "randomized_controlled_trial" ;
+    th:limitationText "All ginger doses significantly reduced acute nausea severity versus placebo on day 1; greatest reduction at 0.5-1.0 g/day." ;
+    th:object "acute nausea severity" ;
+    th:objectLabel "acute nausea severity" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:chemotherapy-induced%20nausea%20and%20vomiting> ;
+    th:subject <urn:thaiherb:v04:entity:H01> ;
+    th:uncanonicalizedObject true .
+
+<urn:thaiherb:v04:assertion:CLIN002> a th:EvidenceAssertion ;
+    dct:identifier "CLIN002" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CLIN_THAM2017> ;
+    th:channel "clinical" ;
+    th:contextText "breast cancer patients receiving adriamycin-cyclophosphamide | ginger 500 mg twice daily plus ondansetron/dexamethasone" ;
+    th:directness "no_additional_benefit" ;
+    th:evidenceMode "randomized_controlled_crossover_trial" ;
+    th:limitationText "No significant additional benefit versus placebo for nausea severity or vomiting outcomes." ;
+    th:object "maximum nausea score/vomiting" ;
+    th:objectLabel "maximum nausea score/vomiting" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:chemotherapy-induced%20nausea%20and%20vomiting> ;
+    th:subject <urn:thaiherb:v04:entity:H01> ;
+    th:uncanonicalizedObject true .
+
+<urn:thaiherb:v04:assertion:CLIN003> a th:EvidenceAssertion ;
+    dct:identifier "CLIN003" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CLIN_KANNAR2001> ;
+    th:channel "clinical" ;
+    th:contextText "46 adults with mild-moderate hypercholesterolemia | enteric-coated garlic powder standardized to 9.6 mg allicin-releasing potential for 12 weeks" ;
+    th:directness "supports_benefit" ;
+    th:evidenceMode "randomized_controlled_trial" ;
+    th:limitationText "LDL cholesterol decreased 6.6% in garlic group while placebo increased; study reported a significant treatment effect." ;
+    th:object "LDL cholesterol" ;
+    th:objectLabel "LDL cholesterol" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:LDL%20cholesterol> ;
+    th:subject <urn:thaiherb:v04:entity:H04> ;
+    th:uncanonicalizedObject true .
+
+<urn:thaiherb:v04:assertion:CLIN004> a th:EvidenceAssertion ;
+    dct:identifier "CLIN004" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CLIN_GARDNER2007> ;
+    th:channel "clinical" ;
+    th:contextText "adults with moderate hypercholesterolemia | raw garlic or two commercial garlic supplements for 6 months" ;
+    th:directness "no_benefit" ;
+    th:evidenceMode "randomized_controlled_trial" ;
+    th:limitationText "No statistically or clinically significant effect on LDL-C or other plasma lipid concentrations." ;
+    th:object "LDL cholesterol and plasma lipids" ;
+    th:objectLabel "LDL cholesterol and plasma lipids" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:LDL%20cholesterol> ;
+    th:subject <urn:thaiherb:v04:entity:H04> ;
+    th:uncanonicalizedObject true .
+
+<urn:thaiherb:v04:assertion:CLIN005> a th:EvidenceAssertion ;
+    dct:identifier "CLIN005" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CLIN_VERMA1993> ;
+    th:channel "clinical" ;
+    th:contextText "healthy male volunteers receiving fatty meal | 5 g dry ginger in two divided doses" ;
+    th:directness "supports_inhibition" ;
+    th:evidenceMode "controlled_human_study" ;
+    th:limitationText "Dry ginger significantly inhibited platelet aggregation in this short-term study." ;
+    th:object "ADP- and epinephrine-induced platelet aggregation" ;
+    th:objectLabel "ADP- and epinephrine-induced platelet aggregation" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:platelet%20aggregation> ;
+    th:subject <urn:thaiherb:v04:entity:H01> ;
+    th:uncanonicalizedObject true .
+
+<urn:thaiherb:v04:assertion:CLIN006> a th:EvidenceAssertion ;
+    dct:identifier "CLIN006" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_CLIN_BORDIA1997> ;
+    th:channel "clinical" ;
+    th:contextText "patients with coronary artery disease | 4 g powdered ginger daily for 3 months" ;
+    th:directness "no_chronic_effect" ;
+    th:evidenceMode "placebo_controlled_human_study" ;
+    th:limitationText "Chronic 4 g/day ginger did not affect platelet aggregation; a separate single 10 g dose reduced aggregation." ;
+    th:object "ADP- and epinephrine-induced platelet aggregation" ;
+    th:objectLabel "ADP- and epinephrine-induced platelet aggregation" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:platelet%20aggregation> ;
+    th:subject <urn:thaiherb:v04:entity:H01> ;
+    th:uncanonicalizedObject true .
+
+<urn:thaiherb:v04:assertion:CLIN007> a th:EvidenceAssertion ;
+    dct:identifier "CLIN007" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_SYN_MARX2015> ;
+    th:channel "clinical" ;
+    th:contextText "adult clinical/observational literature | ginger exposure across included studies" ;
+    th:directness "equivocal_synthesis" ;
+    th:evidenceMode "systematic_review" ;
+    th:limitationText "Systematic review judged the clinical evidence equivocal, with studies reporting both reduced aggregation and no effect." ;
+    th:object "platelet aggregation" ;
+    th:objectLabel "platelet aggregation" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:platelet%20aggregation> ;
+    th:subject <urn:thaiherb:v04:entity:H01> ;
+    th:uncanonicalizedObject true .
+
+<urn:thaiherb:v04:assertion:FA001> a th:EvidenceAssertion ;
+    dct:identifier "FA001" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 9-10" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F01_DTAM2566> ;
+    th:objectLabel "F01_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H01> .
+
+<urn:thaiherb:v04:assertion:FA002> a th:EvidenceAssertion ;
+    dct:identifier "FA002" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 9-10" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F01_DTAM2566> ;
+    th:objectLabel "F01_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H02> .
+
+<urn:thaiherb:v04:assertion:FA003> a th:EvidenceAssertion ;
+    dct:identifier "FA003" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 9-10" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F01_DTAM2566> ;
+    th:objectLabel "F01_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H09> .
+
+<urn:thaiherb:v04:assertion:FA004> a th:EvidenceAssertion ;
+    dct:identifier "FA004" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 9-10" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F01_DTAM2566> ;
+    th:objectLabel "F01_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H11> .
+
+<urn:thaiherb:v04:assertion:FA005> a th:EvidenceAssertion ;
+    dct:identifier "FA005" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 9-10" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F01_DTAM2566> ;
+    th:objectLabel "F01_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H12> .
+
+<urn:thaiherb:v04:assertion:FA006> a th:EvidenceAssertion ;
+    dct:identifier "FA006" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 9-10" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F01_DTAM2566> ;
+    th:objectLabel "F01_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H13> .
+
+<urn:thaiherb:v04:assertion:FA007> a th:EvidenceAssertion ;
+    dct:identifier "FA007" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 9-10" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F01_DTAM2566> ;
+    th:objectLabel "F01_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H14> .
+
+<urn:thaiherb:v04:assertion:FA008> a th:EvidenceAssertion ;
+    dct:identifier "FA008" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 9-10" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F01_DTAM2566> ;
+    th:objectLabel "F01_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H15> .
+
+<urn:thaiherb:v04:assertion:FA009> a th:EvidenceAssertion ;
+    dct:identifier "FA009" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 9-10" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F01_DTAM2566> ;
+    th:objectLabel "F01_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H16> .
+
+<urn:thaiherb:v04:assertion:FA010> a th:EvidenceAssertion ;
+    dct:identifier "FA010" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 35-36" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F02_DTAM2566> ;
+    th:objectLabel "F02_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H07> .
+
+<urn:thaiherb:v04:assertion:FA011> a th:EvidenceAssertion ;
+    dct:identifier "FA011" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 35-36" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F02_DTAM2566> ;
+    th:objectLabel "F02_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H10> .
+
+<urn:thaiherb:v04:assertion:FA012> a th:EvidenceAssertion ;
+    dct:identifier "FA012" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 35-36" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F02_DTAM2566> ;
+    th:objectLabel "F02_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H08> .
+
+<urn:thaiherb:v04:assertion:FA013> a th:EvidenceAssertion ;
+    dct:identifier "FA013" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 35-36" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F02_DTAM2566> ;
+    th:objectLabel "F02_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H04> .
+
+<urn:thaiherb:v04:assertion:FA014> a th:EvidenceAssertion ;
+    dct:identifier "FA014" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 35-36" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F02_DTAM2566> ;
+    th:objectLabel "F02_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H01> .
+
+<urn:thaiherb:v04:assertion:FA015> a th:EvidenceAssertion ;
+    dct:identifier "FA015" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 35-36" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F02_DTAM2566> ;
+    th:objectLabel "F02_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H02> .
+
+<urn:thaiherb:v04:assertion:FA016> a th:EvidenceAssertion ;
+    dct:identifier "FA016" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 35-36" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F02_DTAM2566> ;
+    th:objectLabel "F02_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H03> .
+
+<urn:thaiherb:v04:assertion:FA017> a th:EvidenceAssertion ;
+    dct:identifier "FA017" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 130-131" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F03_DTAM2566> ;
+    th:objectLabel "F03_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H10> .
+
+<urn:thaiherb:v04:assertion:FA018> a th:EvidenceAssertion ;
+    dct:identifier "FA018" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 130-131" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F03_DTAM2566> ;
+    th:objectLabel "F03_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H06> .
+
+<urn:thaiherb:v04:assertion:FA019> a th:EvidenceAssertion ;
+    dct:identifier "FA019" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 130-131" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F03_DTAM2566> ;
+    th:objectLabel "F03_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H05> .
+
+<urn:thaiherb:v04:assertion:FA020> a th:EvidenceAssertion ;
+    dct:identifier "FA020" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 130-131" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F03_DTAM2566> ;
+    th:objectLabel "F03_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H04> .
+
+<urn:thaiherb:v04:assertion:FA021> a th:EvidenceAssertion ;
+    dct:identifier "FA021" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 130-131" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F03_DTAM2566> ;
+    th:objectLabel "F03_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H01> .
+
+<urn:thaiherb:v04:assertion:FA022> a th:EvidenceAssertion ;
+    dct:identifier "FA022" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 130-131" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F03_DTAM2566> ;
+    th:objectLabel "F03_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H02> .
+
+<urn:thaiherb:v04:assertion:FA023> a th:EvidenceAssertion ;
+    dct:identifier "FA023" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 130-131" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F03_DTAM2566> ;
+    th:objectLabel "F03_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H03> .
+
+<urn:thaiherb:v04:assertion:FA024> a th:EvidenceAssertion ;
+    dct:identifier "FA024" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 130-131" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F03_DTAM2566> ;
+    th:objectLabel "F03_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H18> .
+
+<urn:thaiherb:v04:assertion:FA025> a th:EvidenceAssertion ;
+    dct:identifier "FA025" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 151-154" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F04_DTAM2566> ;
+    th:objectLabel "F04_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H05> .
+
+<urn:thaiherb:v04:assertion:FA026> a th:EvidenceAssertion ;
+    dct:identifier "FA026" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 151-154" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F04_DTAM2566> ;
+    th:objectLabel "F04_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H04> .
+
+<urn:thaiherb:v04:assertion:FA027> a th:EvidenceAssertion ;
+    dct:identifier "FA027" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 151-154" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F04_DTAM2566> ;
+    th:objectLabel "F04_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H01> .
+
+<urn:thaiherb:v04:assertion:FA028> a th:EvidenceAssertion ;
+    dct:identifier "FA028" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 151-154" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F04_DTAM2566> ;
+    th:objectLabel "F04_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H02> .
+
+<urn:thaiherb:v04:assertion:FA029> a th:EvidenceAssertion ;
+    dct:identifier "FA029" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 151-154" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F04_DTAM2566> ;
+    th:objectLabel "F04_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H03> .
+
+<urn:thaiherb:v04:assertion:FA030> a th:EvidenceAssertion ;
+    dct:identifier "FA030" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 151-154" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F04_DTAM2566> ;
+    th:objectLabel "F04_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H10> .
+
+<urn:thaiherb:v04:assertion:FA031> a th:EvidenceAssertion ;
+    dct:identifier "FA031" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 151-154" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F04_DTAM2566> ;
+    th:objectLabel "F04_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H15> .
+
+<urn:thaiherb:v04:assertion:FA032> a th:EvidenceAssertion ;
+    dct:identifier "FA032" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 151-154" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F04_DTAM2566> ;
+    th:objectLabel "F04_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H17> .
+
+<urn:thaiherb:v04:assertion:FA033> a th:EvidenceAssertion ;
+    dct:identifier "FA033" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 169-170" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F05_DTAM2566> ;
+    th:objectLabel "F05_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H05> .
+
+<urn:thaiherb:v04:assertion:FA034> a th:EvidenceAssertion ;
+    dct:identifier "FA034" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 169-170" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F05_DTAM2566> ;
+    th:objectLabel "F05_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H10> .
+
+<urn:thaiherb:v04:assertion:FA035> a th:EvidenceAssertion ;
+    dct:identifier "FA035" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 169-170" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F05_DTAM2566> ;
+    th:objectLabel "F05_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H01> .
+
+<urn:thaiherb:v04:assertion:FA036> a th:EvidenceAssertion ;
+    dct:identifier "FA036" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 169-170" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F05_DTAM2566> ;
+    th:objectLabel "F05_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H02> .
+
+<urn:thaiherb:v04:assertion:FA037> a th:EvidenceAssertion ;
+    dct:identifier "FA037" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 169-170" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F05_DTAM2566> ;
+    th:objectLabel "F05_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H03> .
+
+<urn:thaiherb:v04:assertion:FA038> a th:EvidenceAssertion ;
+    dct:identifier "FA038" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 169-170" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F05_DTAM2566> ;
+    th:objectLabel "F05_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H15> .
+
+<urn:thaiherb:v04:assertion:FA039> a th:EvidenceAssertion ;
+    dct:identifier "FA039" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 169-170" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F05_DTAM2566> ;
+    th:objectLabel "F05_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H16> .
+
+<urn:thaiherb:v04:assertion:FA040> a th:EvidenceAssertion ;
+    dct:identifier "FA040" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 169-170" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F05_DTAM2566> ;
+    th:objectLabel "F05_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H17> .
+
+<urn:thaiherb:v04:assertion:FA041> a th:EvidenceAssertion ;
+    dct:identifier "FA041" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 169-170" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F05_DTAM2566> ;
+    th:objectLabel "F05_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H20> .
+
+<urn:thaiherb:v04:assertion:FA042> a th:EvidenceAssertion ;
+    dct:identifier "FA042" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 172-173" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F06_DTAM2566> ;
+    th:objectLabel "F06_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H03> .
+
+<urn:thaiherb:v04:assertion:FA043> a th:EvidenceAssertion ;
+    dct:identifier "FA043" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 172-173" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F06_DTAM2566> ;
+    th:objectLabel "F06_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H01> .
+
+<urn:thaiherb:v04:assertion:FA044> a th:EvidenceAssertion ;
+    dct:identifier "FA044" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 172-173" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F06_DTAM2566> ;
+    th:objectLabel "F06_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H02> .
+
+<urn:thaiherb:v04:assertion:FA045> a th:EvidenceAssertion ;
+    dct:identifier "FA045" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 172-173" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F06_DTAM2566> ;
+    th:objectLabel "F06_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H10> .
+
+<urn:thaiherb:v04:assertion:FA046> a th:EvidenceAssertion ;
+    dct:identifier "FA046" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 172-173" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F06_DTAM2566> ;
+    th:objectLabel "F06_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H17> .
+
+<urn:thaiherb:v04:assertion:FA047> a th:EvidenceAssertion ;
+    dct:identifier "FA047" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF p. 248" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F07_DTAM2566> ;
+    th:objectLabel "F07_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H04> .
+
+<urn:thaiherb:v04:assertion:FA048> a th:EvidenceAssertion ;
+    dct:identifier "FA048" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF p. 248" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F07_DTAM2566> ;
+    th:objectLabel "F07_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H09> .
+
+<urn:thaiherb:v04:assertion:FA049> a th:EvidenceAssertion ;
+    dct:identifier "FA049" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF p. 248" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F07_DTAM2566> ;
+    th:objectLabel "F07_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H08> .
+
+<urn:thaiherb:v04:assertion:FA050> a th:EvidenceAssertion ;
+    dct:identifier "FA050" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF p. 248" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F07_DTAM2566> ;
+    th:objectLabel "F07_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H02> .
+
+<urn:thaiherb:v04:assertion:FA051> a th:EvidenceAssertion ;
+    dct:identifier "FA051" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF p. 248" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F07_DTAM2566> ;
+    th:objectLabel "F07_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H03> .
+
+<urn:thaiherb:v04:assertion:FA052> a th:EvidenceAssertion ;
+    dct:identifier "FA052" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF p. 248" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F07_DTAM2566> ;
+    th:objectLabel "F07_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H12> .
+
+<urn:thaiherb:v04:assertion:FA053> a th:EvidenceAssertion ;
+    dct:identifier "FA053" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF p. 248" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F07_DTAM2566> ;
+    th:objectLabel "F07_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H13> .
+
+<urn:thaiherb:v04:assertion:FA054> a th:EvidenceAssertion ;
+    dct:identifier "FA054" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF p. 248" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F07_DTAM2566> ;
+    th:objectLabel "F07_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H19> .
+
+<urn:thaiherb:v04:assertion:FA055> a th:EvidenceAssertion ;
+    dct:identifier "FA055" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 57-58" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F08_DTAM2566> ;
+    th:objectLabel "F08_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H04> .
+
+<urn:thaiherb:v04:assertion:FA056> a th:EvidenceAssertion ;
+    dct:identifier "FA056" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 57-58" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F08_DTAM2566> ;
+    th:objectLabel "F08_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H09> .
+
+<urn:thaiherb:v04:assertion:FA057> a th:EvidenceAssertion ;
+    dct:identifier "FA057" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 57-58" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F08_DTAM2566> ;
+    th:objectLabel "F08_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H08> .
+
+<urn:thaiherb:v04:assertion:FA058> a th:EvidenceAssertion ;
+    dct:identifier "FA058" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 57-58" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F08_DTAM2566> ;
+    th:objectLabel "F08_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H11> .
+
+<urn:thaiherb:v04:assertion:FA059> a th:EvidenceAssertion ;
+    dct:identifier "FA059" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 57-58" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F08_DTAM2566> ;
+    th:objectLabel "F08_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H12> .
+
+<urn:thaiherb:v04:assertion:FA060> a th:EvidenceAssertion ;
+    dct:identifier "FA060" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 57-58" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F08_DTAM2566> ;
+    th:objectLabel "F08_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H13> .
+
+<urn:thaiherb:v04:assertion:FA061> a th:EvidenceAssertion ;
+    dct:identifier "FA061" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 57-58" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F08_DTAM2566> ;
+    th:objectLabel "F08_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H14> .
+
+<urn:thaiherb:v04:assertion:FA062> a th:EvidenceAssertion ;
+    dct:identifier "FA062" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 57-58" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F08_DTAM2566> ;
+    th:objectLabel "F08_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H15> .
+
+<urn:thaiherb:v04:assertion:FA063> a th:EvidenceAssertion ;
+    dct:identifier "FA063" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 79-80" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F09_DTAM2566> ;
+    th:objectLabel "F09_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H02> .
+
+<urn:thaiherb:v04:assertion:FA064> a th:EvidenceAssertion ;
+    dct:identifier "FA064" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 79-80" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F09_DTAM2566> ;
+    th:objectLabel "F09_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H09> .
+
+<urn:thaiherb:v04:assertion:FA065> a th:EvidenceAssertion ;
+    dct:identifier "FA065" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 79-80" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F09_DTAM2566> ;
+    th:objectLabel "F09_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H01> .
+
+<urn:thaiherb:v04:assertion:FA066> a th:EvidenceAssertion ;
+    dct:identifier "FA066" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 79-80" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F09_DTAM2566> ;
+    th:objectLabel "F09_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H12> .
+
+<urn:thaiherb:v04:assertion:FA067> a th:EvidenceAssertion ;
+    dct:identifier "FA067" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 79-80" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F09_DTAM2566> ;
+    th:objectLabel "F09_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H13> .
+
+<urn:thaiherb:v04:assertion:FA068> a th:EvidenceAssertion ;
+    dct:identifier "FA068" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 79-80" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F09_DTAM2566> ;
+    th:objectLabel "F09_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H14> .
+
+<urn:thaiherb:v04:assertion:FA069> a th:EvidenceAssertion ;
+    dct:identifier "FA069" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 394-395" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F10_DTAM2566> ;
+    th:objectLabel "F10_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H04> .
+
+<urn:thaiherb:v04:assertion:FA070> a th:EvidenceAssertion ;
+    dct:identifier "FA070" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 394-395" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F10_DTAM2566> ;
+    th:objectLabel "F10_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H06> .
+
+<urn:thaiherb:v04:assertion:FA071> a th:EvidenceAssertion ;
+    dct:identifier "FA071" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_FORMULA> ;
+    th:channel "formula" ;
+    th:contextText "B.E. 2566 reference-formula compendium, PDF pp. 394-395" ;
+    th:directness "documentary_direct" ;
+    th:evidenceMode "official_compendium" ;
+    th:limitationText "20-herb projection only; complete prescription, ingredient quantity and final dosage form are not reconstructed." ;
+    th:object <urn:thaiherb:v04:entity:F10_DTAM2566> ;
+    th:objectLabel "F10_DTAM2566" ;
+    th:originalStatus "supported_documentary_membership" ;
+    th:predicate <urn:thaiherb:v04:relation:ingredient_member_of> ;
+    th:subject <urn:thaiherb:v04:entity:H03> .
+
+<urn:thaiherb:v04:assertion:PHARM001> a th:EvidenceAssertion ;
+    dct:identifier "PHARM001" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_RIERA2009> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "heterologous TRPA1 and sensory-neuron assays | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "electrophysiology/calcium imaging" ;
+    th:object <urn:thaiherb:v04:entity:T_TRPA1> ;
+    th:objectLabel "T_TRPA1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:agonist> ;
+    th:subject <urn:thaiherb:v04:entity:6-shogaol> .
+
+<urn:thaiherb:v04:assertion:PHARM002> a th:EvidenceAssertion ;
+    dct:identifier "PHARM002" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_RIERA2009> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "heterologous TRPV1 and sensory-neuron assays | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "electrophysiology/calcium imaging" ;
+    th:object <urn:thaiherb:v04:entity:T_TRPV1> ;
+    th:objectLabel "T_TRPV1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:agonist> ;
+    th:subject <urn:thaiherb:v04:entity:6-shogaol> .
+
+<urn:thaiherb:v04:assertion:PHARM003> a th:EvidenceAssertion ;
+    dct:identifier "PHARM003" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_RIERA2009> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "heterologous TRPA1 and sensory-neuron assays | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "electrophysiology/calcium imaging" ;
+    th:object <urn:thaiherb:v04:entity:T_TRPA1> ;
+    th:objectLabel "T_TRPA1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:agonist> ;
+    th:subject <urn:thaiherb:v04:entity:6-paradol> .
+
+<urn:thaiherb:v04:assertion:PHARM004> a th:EvidenceAssertion ;
+    dct:identifier "PHARM004" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_RIERA2009> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "heterologous TRPV1 and sensory-neuron assays | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "electrophysiology/calcium imaging" ;
+    th:object <urn:thaiherb:v04:entity:T_TRPV1> ;
+    th:objectLabel "T_TRPV1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:agonist> ;
+    th:subject <urn:thaiherb:v04:entity:6-paradol> .
+
+<urn:thaiherb:v04:assertion:PHARM005> a th:EvidenceAssertion ;
+    dct:identifier "PHARM005" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_MCNAMARA2005> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "human TRPV1-expressing cells | EC50 37.9 Â± 1.9 ÂµM | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "whole-cell patch clamp" ;
+    th:object <urn:thaiherb:v04:entity:T_TRPV1> ;
+    th:objectLabel "T_TRPV1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:agonist> ;
+    th:subject <urn:thaiherb:v04:entity:piperine> .
+
+<urn:thaiherb:v04:assertion:PHARM006> a th:EvidenceAssertion ;
+    dct:identifier "PHARM006" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_BHARDWAJ2002> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "Caco-2 P-glycoprotein transport | IC50 15.5 ÂµM for digoxin transport | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "transport assay" ;
+    th:object <urn:thaiherb:v04:entity:T_ABCB1> ;
+    th:objectLabel "T_ABCB1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibitor> ;
+    th:subject <urn:thaiherb:v04:entity:piperine> .
+
+<urn:thaiherb:v04:assertion:PHARM007> a th:EvidenceAssertion ;
+    dct:identifier "PHARM007" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_BHARDWAJ2002> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "CYP3A4-mediated verapamil metabolism | mixed inhibition; Ki values reported by liver/metabolite | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "human liver microsome enzyme assay" ;
+    th:object <urn:thaiherb:v04:entity:T_CYP3A4> ;
+    th:objectLabel "T_CYP3A4" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibitor> ;
+    th:subject <urn:thaiherb:v04:entity:piperine> .
+
+<urn:thaiherb:v04:assertion:PHARM008> a th:EvidenceAssertion ;
+    dct:identifier "PHARM008" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_GERTSCH2008> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "CB2 binding and functional signaling | Ki 155 Â± 4 nM | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "binding and functional receptor assay" ;
+    th:object <urn:thaiherb:v04:entity:T_CNR2> ;
+    th:objectLabel "T_CNR2" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:agonist> ;
+    th:subject <urn:thaiherb:v04:entity:beta-caryophyllene> .
+
+<urn:thaiherb:v04:assertion:PHARM009> a th:EvidenceAssertion ;
+    dct:identifier "PHARM009" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_MACPHERSON2005> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "TRPA1 activation in garlic pungency experiments | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "functional ion-channel assay" ;
+    th:object <urn:thaiherb:v04:entity:T_TRPA1> ;
+    th:objectLabel "T_TRPA1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:agonist> ;
+    th:subject <urn:thaiherb:v04:entity:allicin> .
+
+<urn:thaiherb:v04:assertion:PHARM010> a th:EvidenceAssertion ;
+    dct:identifier "PHARM010" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_MACPHERSON2005> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "TRPV1 activation in garlic pungency experiments | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "functional ion-channel assay" ;
+    th:object <urn:thaiherb:v04:entity:T_TRPV1> ;
+    th:objectLabel "T_TRPV1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:agonist> ;
+    th:subject <urn:thaiherb:v04:entity:allicin> .
+
+<urn:thaiherb:v04:assertion:PHARM011> a th:EvidenceAssertion ;
+    dct:identifier "PHARM011" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_DOHI2009> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "microplate AChE inhibition | IC50 3.2 mg/mL | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "enzymatic assay" ;
+    th:object <urn:thaiherb:v04:entity:T_ACHE> ;
+    th:objectLabel "T_ACHE" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibitor> ;
+    th:subject <urn:thaiherb:v04:entity:terpinen-4-ol> .
+
+<urn:thaiherb:v04:assertion:PHARM012> a th:EvidenceAssertion ;
+    dct:identifier "PHARM012" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_DOHI2009> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "microplate AChE inhibition | IC50 0.015 mg/mL | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "enzymatic assay" ;
+    th:object <urn:thaiherb:v04:entity:T_ACHE> ;
+    th:objectLabel "T_ACHE" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibitor> ;
+    th:subject <urn:thaiherb:v04:entity:1%2C8-cineole> .
+
+<urn:thaiherb:v04:assertion:PHARM013> a th:EvidenceAssertion ;
+    dct:identifier "PHARM013" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_TAKAISHI2012> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "human TRPM8-expressing HEK293T cells | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "calcium imaging/patch clamp" ;
+    th:object <urn:thaiherb:v04:entity:T_TRPM8> ;
+    th:objectLabel "T_TRPM8" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:agonist> ;
+    th:subject <urn:thaiherb:v04:entity:1%2C8-cineole> .
+
+<urn:thaiherb:v04:assertion:PHARM014> a th:EvidenceAssertion ;
+    dct:identifier "PHARM014" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_TAKAISHI2012> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "human TRPA1-expressing HEK293T cells | dose-dependent inhibition | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "patch clamp" ;
+    th:object <urn:thaiherb:v04:entity:T_TRPA1> ;
+    th:objectLabel "T_TRPA1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:antagonist> ;
+    th:subject <urn:thaiherb:v04:entity:1%2C8-cineole> .
+
+<urn:thaiherb:v04:assertion:PHARM015> a th:EvidenceAssertion ;
+    dct:identifier "PHARM015" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_DOHI2009> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "microplate AChE inhibition | IC50 0.48 mg/mL | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "enzymatic assay" ;
+    th:object <urn:thaiherb:v04:entity:T_ACHE> ;
+    th:objectLabel "T_ACHE" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibitor> ;
+    th:subject <urn:thaiherb:v04:entity:eugenol> .
+
+<urn:thaiherb:v04:assertion:PHARM016> a th:EvidenceAssertion ;
+    dct:identifier "PHARM016" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_DOHI2009> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "microplate AChE inhibition | IC50 0.022 mg/mL | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "enzymatic assay" ;
+    th:object <urn:thaiherb:v04:entity:T_ACHE> ;
+    th:objectLabel "T_ACHE" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibitor> ;
+    th:subject <urn:thaiherb:v04:entity:alpha-pinene> .
+
+<urn:thaiherb:v04:assertion:PHARM017> a th:EvidenceAssertion ;
+    dct:identifier "PHARM017" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_MOLLICA2007> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "direct HMGB1 interaction and cytokine activity inhibition | Kd ~150 ÂµM | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "NMR/fluorescence binding and functional assay" ;
+    th:object <urn:thaiherb:v04:entity:T_HMGB1> ;
+    th:objectLabel "T_HMGB1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:binder%2Finhibitor> ;
+    th:subject <urn:thaiherb:v04:entity:glycyrrhizin> .
+
+<urn:thaiherb:v04:assertion:PHARM018> a th:EvidenceAssertion ;
+    dct:identifier "PHARM018" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_COZZA2006> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "protein kinase CK2 inhibition | Ki 20 nM | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "enzyme kinetics" ;
+    th:object <urn:thaiherb:v04:entity:T_CSNK2A1> ;
+    th:objectLabel "T_CSNK2A1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibitor> ;
+    th:subject <urn:thaiherb:v04:entity:ellagic%20acid> .
+
+<urn:thaiherb:v04:assertion:PHARM019> a th:EvidenceAssertion ;
+    dct:identifier "PHARM019" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_RIERA2009> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "TRPA1-expressing system in Riera et al. | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "calcium/voltage imaging" ;
+    th:limitationText "Direction differs from later inhibitory study; assay context differs." ;
+    th:object <urn:thaiherb:v04:entity:T_TRPA1> ;
+    th:objectLabel "T_TRPA1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:agonist> ;
+    th:subject <urn:thaiherb:v04:entity:linalool> .
+
+<urn:thaiherb:v04:assertion:PHARM020> a th:EvidenceAssertion ;
+    dct:identifier "PHARM020" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_HASHIMOTO2023> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "mouse sensory neurons and heterologous TRPA1 | mouse neurons/heterologous cells" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "calcium imaging/patch clamp" ;
+    th:limitationText "Direction differs from Riera et al.; species/assay/concentration context differs." ;
+    th:object <urn:thaiherb:v04:entity:T_TRPA1> ;
+    th:objectLabel "T_TRPA1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibitor> ;
+    th:subject <urn:thaiherb:v04:entity:linalool> .
+
+<urn:thaiherb:v04:assertion:PHARM021> a th:EvidenceAssertion ;
+    dct:identifier "PHARM021" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_XU2005> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "TRPV1 ion-channel studies | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "electrophysiology" ;
+    th:object <urn:thaiherb:v04:entity:T_TRPV1> ;
+    th:objectLabel "T_TRPV1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:agonist%2Fdesensitizer> ;
+    th:subject <urn:thaiherb:v04:entity:camphor> .
+
+<urn:thaiherb:v04:assertion:PHARM022> a th:EvidenceAssertion ;
+    dct:identifier "PHARM022" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_WOO2011> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "PPAR-gamma reporter/inhibitor/dominant-negative experiments | human/cell system" ;
+    th:directness "functional_target_association" ;
+    th:evidenceMode "cellular functional assay + docking" ;
+    th:limitationText "Not modeled as a direct biochemical binding measurement." ;
+    th:object <urn:thaiherb:v04:entity:T_PPARG> ;
+    th:objectLabel "T_PPARG" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:activates%20pathway> ;
+    th:subject <urn:thaiherb:v04:entity:thymoquinone> .
+
+<urn:thaiherb:v04:assertion:PHARM023> a th:EvidenceAssertion ;
+    dct:identifier "PHARM023" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_UMAR2012> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "COX-1 inhibition | IC50 1.12 ÂµM | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "enzymatic assay" ;
+    th:object <urn:thaiherb:v04:entity:T_PTGS1> ;
+    th:objectLabel "T_PTGS1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibitor> ;
+    th:subject <urn:thaiherb:v04:entity:ethyl%20p-methoxycinnamate> .
+
+<urn:thaiherb:v04:assertion:PHARM024> a th:EvidenceAssertion ;
+    dct:identifier "PHARM024" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_UMAR2012> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "COX-2 inhibition | IC50 0.83 ÂµM | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "enzymatic assay" ;
+    th:object <urn:thaiherb:v04:entity:T_PTGS2> ;
+    th:objectLabel "T_PTGS2" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibitor> ;
+    th:subject <urn:thaiherb:v04:entity:ethyl%20p-methoxycinnamate> .
+
+<urn:thaiherb:v04:assertion:PHARM025> a th:EvidenceAssertion ;
+    dct:identifier "PHARM025" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_MUKHERJEE2007> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "AChE inhibition (Ellman method) | IC50 3.33 Â± 0.02 ÂµM | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "enzymatic assay" ;
+    th:object <urn:thaiherb:v04:entity:T_ACHE> ;
+    th:objectLabel "T_ACHE" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibitor> ;
+    th:subject <urn:thaiherb:v04:entity:beta-asarone> .
+
+<urn:thaiherb:v04:assertion:PHARM026> a th:EvidenceAssertion ;
+    dct:identifier "PHARM026" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_MUKHERJEE2007> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "AChE inhibition (Ellman method) | IC50 46.38 Â± 2.69 ÂµM | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "enzymatic assay" ;
+    th:object <urn:thaiherb:v04:entity:T_ACHE> ;
+    th:objectLabel "T_ACHE" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibitor> ;
+    th:subject <urn:thaiherb:v04:entity:alpha-asarone> .
+
+<urn:thaiherb:v04:assertion:PHARM027> a th:EvidenceAssertion ;
+    dct:identifier "PHARM027" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_HAFEEZ2012> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "pancreatic cancer model | human/cell system" ;
+    th:directness "functional_target_association" ;
+    th:evidenceMode "cellular/in vivo pathway study" ;
+    th:limitationText "Pathway-level evidence; not a direct binding assay." ;
+    th:object <urn:thaiherb:v04:entity:T_EGFR> ;
+    th:objectLabel "T_EGFR" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibits%20pathway> ;
+    th:subject <urn:thaiherb:v04:entity:plumbagin> .
+
+<urn:thaiherb:v04:assertion:PHARM028> a th:EvidenceAssertion ;
+    dct:identifier "PHARM028" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_HAFEEZ2012> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "pancreatic cancer model | human/cell system" ;
+    th:directness "functional_target_association" ;
+    th:evidenceMode "cellular/in vivo pathway study" ;
+    th:limitationText "Pathway-level evidence; not a direct binding assay." ;
+    th:object <urn:thaiherb:v04:entity:T_STAT3> ;
+    th:objectLabel "T_STAT3" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibits%20pathway> ;
+    th:subject <urn:thaiherb:v04:entity:plumbagin> .
+
+<urn:thaiherb:v04:assertion:PHARM029> a th:EvidenceAssertion ;
+    dct:identifier "PHARM029" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_ZHUOYE2021> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "isolated pod saponin mixture | IC50 7.9 Âµg/mL | human/cell system" ;
+    th:directness "preparation_target" ;
+    th:evidenceMode "enzymatic assay" ;
+    th:limitationText "Evidence applies to a saponin mixture, not a single concinnoside." ;
+    th:object <urn:thaiherb:v04:entity:T_PNLIP> ;
+    th:objectLabel "T_PNLIP" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:inhibitor> ;
+    th:subject <urn:thaiherb:v04:entity:Acacia%20concinna%20pod%20saponin%20mixture> .
+
+<urn:thaiherb:v04:assertion:PHARM030> a th:EvidenceAssertion ;
+    dct:identifier "PHARM030" ;
+    prov:wasDerivedFrom <urn:thaiherb:v04:source:SRC_PHARM_KAIMOTO2016> ;
+    th:channel "pharmacology_target" ;
+    th:contextText "TRPA1-dependent algesic/analgesic actions | human/cell system" ;
+    th:directness "direct_compound_target" ;
+    th:evidenceMode "electrophysiology/behavioral assay" ;
+    th:limitationText "Direction is concentration/context dependent." ;
+    th:object <urn:thaiherb:v04:entity:T_TRPA1> ;
+    th:objectLabel "T_TRPA1" ;
+    th:originalStatus "verified_for_dataset" ;
+    th:predicate <urn:thaiherb:v04:relation:bimodal%20modulator> ;
+    th:subject <urn:thaiherb:v04:entity:limonene> .
+
+<urn:thaiherb:v04:source:SRC_CLIN_BORDIA1997> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_CLIN_GARDNER2007> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_CLIN_KANNAR2001> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_CLIN_RYAN2012> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_CLIN_THAM2017> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_CLIN_VERMA1993> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_COZZA2006> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_GERTSCH2008> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_HASHIMOTO2023> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_KAIMOTO2016> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_MCNAMARA2005> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_MOLLICA2007> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_WOO2011> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_XU2005> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_ZHUOYE2021> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_SYN_MARX2015> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_BHARDWAJ2002> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_HAFEEZ2012> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_MACPHERSON2005> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_MUKHERJEE2007> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_TAKAISHI2012> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_UMAR2012> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_DOHI2009> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_ACORUS> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_BASIL> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_BLACK> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_CARDAMOM> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_CHEBULA> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_CLOVE> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_CORIANDER> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_CURCUMA> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_GALANGAL> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_GARLIC> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_GINGER> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_KAEMPFERIA> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_KAFFIR> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_LICORICE> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_NIGELLA> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_NUTMEG> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PHARM_RIERA2009> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PLAI> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_PLUMBAGO> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_RETRO> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_SOMPOI> a th:SourceDocument .
+
+<urn:thaiherb:v04:source:SRC_FORMULA> a th:SourceDocument .
+
