@@ -1,0 +1,46 @@
+name: ThaiHerb authentic V3 pySHACL Core validation
+on:
+  push:
+    branches:
+      - thaiherb-p3-real-pyshacl-v1.0-20261107
+    paths:
+      - 'thaiherb_kg/paper3_real_pyshacl_v1_0/**'
+      - '.github/workflows/thaiherb_real_pyshacl_core.yml'
+  workflow_dispatch:
+jobs:
+  authentic-shacl:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install official pySHACL runtime
+        run: python -m pip install --disable-pip-version-check 'pyshacl==0.40.2' 'pytest>=8,<10'
+      - name: Validate actual frozen 208-assertion RDF and ten failing mutations
+        run: python thaiherb_kg/paper3_real_pyshacl_v1_0/src/validate_pyshacl.py
+      - name: Verify actual report was generated and PASS
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('thaiherb_kg/paper3_real_pyshacl_v1_0/results/P3_PYSHACL_CORE_RUNTIME.json')
+          r=json.loads(p.read_text(encoding='utf-8'))
+          assert r['status']=='PASS'
+          assert r['baseline_conforms'] is True
+          assert r['negative_controls_detected']==10
+          assert r['original_v3_assertions']==208
+          print('Authenticated pySHACL result:',r)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: thaiherb-pyshacl-actual-v3-report
+          path: |
+            thaiherb_kg/paper3_real_pyshacl_v1_0/results/P3_PYSHACL_CORE_RUNTIME.json
+            thaiherb_kg/paper3_real_pyshacl_v1_0/results/P3_PYSHACL_REAL_REPORT.ttl
+            thaiherb_kg/paper3_real_pyshacl_v1_0/results/P3_PYSHACL_REAL_REPORT.txt
+            thaiherb_kg/paper3_real_pyshacl_v1_0/results/P3_PYSHACL_REAL_NEGATIVE_CONTROLS.csv
+          if-no-files-found: warn
