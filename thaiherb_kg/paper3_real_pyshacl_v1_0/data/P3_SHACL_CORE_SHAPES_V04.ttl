@@ -1,0 +1,13 @@
+@prefix th: <urn:thaiherb:v04:> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+th:EvidenceAssertionShape a sh:NodeShape ;
+  sh:targetClass th:EvidenceAssertion ;
+  sh:property [ sh:path dct:identifier ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:Literal ] ;
+  sh:property [ sh:path th:subject ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+  sh:property [ sh:path th:predicate ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+  sh:property [ sh:path th:object ; sh:minCount 1 ; sh:maxCount 1 ] ;
+  sh:property [ sh:path th:channel ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:Literal ] ;
+  sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ; sh:class th:SourceDocument ] .
