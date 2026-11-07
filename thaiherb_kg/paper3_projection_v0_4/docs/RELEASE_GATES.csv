@@ -1,0 +1,13 @@
+stage,gate,status,evidence,remaining_blocker
+P2_v06,Input freeze,PASS,data SHA256 manifest,20-herb v0.4 original context remains separate
+P2_v06,Five source-table occurrence checks,PASS,P2_PRIMARY_ANALYTICAL_MATCHES_5.csv,AI-assisted single-curator not expert adjudication
+P2_v06,Remaining 95 compound occurrence checks,BLOCKED,P2_CHEM_UNRESOLVED_95.csv,Claim-specific primary full-text inspection required
+P2_v06,Chemical canonical structure & original 35 classes,BLOCKED,P2 v0.5 archive,External canonical IDs and original class archive absent
+P2_v06,External source-disjoint corpus,BLOCKED,P2 v0.5 report,No independently verified corpus
+P3_v04,Same 208 frozen input across three projections,PASS,P3_PROJECTION_PARITY_208.csv,M3 structured material ontology not yet implemented
+P3_v04,Assertion traceability in M2 and M3,PASS,P3_M2.ttl and P3_M3.ttl,Original source registry parity unresolved
+P3_v04,Custom RDF negative controls,PASS,P3_CUSTOM_NEGATIVE_CONTROLS.csv,Not standard SHACL
+P3_v04,pySHACL Core actual validation,BLOCKED,P3_SHACL_RUNTIME_STATUS.json,Dependency not installable in current runtime
+P3_v04,Blinded expert questions and gold,BLOCKED,P3_CQ_BLINDED_BENCHMARK_TEMPLATE.csv,Actual two reviewers required
+P3_v04,M1/M2/M3 independent accuracy comparison,BLOCKED,P3_EXPERIMENTAL_QUERY_DEVELOPMENT_ONLY.csv,Gold and locked evaluation missing
+P3_v04,Clinical outcomes 7 canonical IDs,BLOCKED,P3 source V3 CSV,Unresolved source-supported canonical identifiers
