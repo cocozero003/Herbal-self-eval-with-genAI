@@ -1,0 +1,39 @@
+name: ThaiHerb pySHACL schema fixtures (synthetic only)
+on:
+  push:
+    branches:
+      - thaiherb-p3-context-audit-v0.6-20261107
+  workflow_dispatch:
+jobs:
+  synthetic-shacl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install SHACL runtime
+        run: python -m pip install 'rdflib>=7.3,<8' 'pyshacl>=0.31,<0.41'
+      - name: Validate synthetic positive and negative controls
+        run: |
+          python - <<'PY'
+          from rdflib import Graph, Namespace, RDF
+          from rdflib.namespace import PROV
+          from pyshacl import validate
+          T=Namespace('urn:thaiherb:schema-test:')
+          shapes='''@prefix th: <urn:thaiherb:schema-test:> .
+          @prefix sh: <http://www.w3.org/ns/shacl#> .
+          @prefix prov: <http://www.w3.org/ns/prov#> .
+          th:S a sh:NodeShape ; sh:targetClass th:EvidenceAssertion ;
+            sh:property [ sh:path th:subject ; sh:minCount 1 ; sh:nodeKind sh:IRI ] ;
+            sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ; sh:class th:SourceDocument ] .'''
+          sg=Graph().parse(data=shapes,format='turtle')
+          g=Graph();g.add((T.a,RDF.type,T.EvidenceAssertion))
+          g.add((T.a,T.subject,T.herb))
+          g.add((T.a,PROV.wasDerivedFrom,T.source))
+          g.add((T.source,RDF.type,T.SourceDocument))
+          assert validate(data_graph=g,shacl_graph=sg,inference='none')[0]
+          g.remove((T.a,T.subject,T.herb))
+          assert not validate(data_graph=g,shacl_graph=sg,inference='none')[0]
+          print('Synthetic SHACL controls only. Authentic V3 graph NOT evaluated.')
+          PY
