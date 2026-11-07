@@ -1,0 +1,1 @@
+Research proxy inputs reside in the authorized Full ZIP on project Google Drive. Do not copy original formulas, sources or copyright-protected content into public code repositories. Original 35 chemical classes and human expert gold standards are unavailable.
