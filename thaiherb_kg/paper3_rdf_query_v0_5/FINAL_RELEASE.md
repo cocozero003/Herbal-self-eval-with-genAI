@@ -12,7 +12,7 @@ Paper 2 **v0.7** and Paper 3 **v0.5**. Both versions are development-grade, not 
 
 ## Validated software status
 
-- 65 archive entries, 65 SHA-256 checks including manifest excluded from own manifest; 65-file manifest contents are fully checked. (Manifest lists 65 content files; there are 66 entries including manifest.)
+- 66 archive entries: SHA-256 checks passed for all 65 content files listed in the manifest; the manifest itself is the 66th file.
 - Clean extraction: **34/34 pytest passed**. This verifies code/structure, not biological accuracy.
 - P2: 100 claims stratified: 5 full-text primary, 5 abstract-only primary, 10 secondary reviews, 80 not verified.
 - P3: 208 historical source assertions frozen; 8 CQ development cases, 24 RDF query outputs, no expert gold, no accuracy results.
