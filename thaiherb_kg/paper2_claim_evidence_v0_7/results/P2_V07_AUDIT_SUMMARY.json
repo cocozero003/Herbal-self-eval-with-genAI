@@ -1,0 +1,17 @@
+{
+  "status": "SOURCE_REVIEW_ONLY_NOT_GOLD",
+  "input_sha256": "286ca4caccaca54d7cf374c70572d5a237f01e30c234cbaceed32fd662911972",
+  "counts": {
+    "SECONDARY_ONLY": 10,
+    "PRIMARY_FULLTEXT_MATCH": 5,
+    "NOT_VERIFIED": 80,
+    "PRIMARY_ABSTRACT_ONLY": 5
+  },
+  "total": 100,
+  "full_text_primary": 5,
+  "primary_abstract_only": 5,
+  "secondary_review_only": 10,
+  "not_verified": 80,
+  "expert_adjudicated": false,
+  "external_biological_validation": false
+}
