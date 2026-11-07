@@ -1,0 +1,4 @@
+rdflib>=7.0,<9
+pytest>=8,<10
+# Optional for standards-complete SHACL checks; requires separate installation:
+# pyshacl>=0.27,<1
