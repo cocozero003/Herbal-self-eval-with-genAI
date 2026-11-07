@@ -1,0 +1,66 @@
+{
+  "as_of": "2026-11-07",
+  "project": "Thai Herbal Knowledge Graph",
+  "release": "3paper-portfolio-2026-11-07",
+  "source_scope": "Verified Google Drive manuscript folders and GitHub branches; no new experiments",
+  "papers": [
+    {
+      "paper": 1,
+      "version": "v0.8",
+      "stage": "AUTHOR_REVIEW_REANALYSIS_NOT_EXACT_REPLICATION",
+      "herbs": 10,
+      "formulas": 10,
+      "formula_memberships": 46,
+      "fits": 130,
+      "critical_gate": "Original 19 chemical class table/vectors unavailable; author approval",
+      "urls": {
+        "drive_folder": "https://drive.google.com/drive/folders/11ZhI1j3fpmYS9KixG5E_1pw03pqC5fIe",
+        "manuscript": "https://drive.google.com/file/d/12B73v_SNQlF8UBnnzt7oT7xGPtE_xCiE/view",
+        "archive": "https://drive.google.com/file/d/1HZYlxuI36gbg2d5E_jzanedT3LXJ2sLd/view",
+        "github": "https://github.com/cocozero003/Herbal-self-eval-with-genAI/tree/thaiherb-p1-publication-finalization-v0.8-20261107"
+      }
+    },
+    {
+      "paper": 2,
+      "version": "v1.4 manuscript; v1.3 experiment",
+      "stage": "AUTHOR_REVIEW_INTERNAL_ROBUSTNESS",
+      "herbs": 20,
+      "formulas": 10,
+      "formula_memberships": 74,
+      "fits_baseline": 180,
+      "critical_gate": "No validated external biological generalizability; 5/100 archived primary fulltext confirmations",
+      "urls": {
+        "drive_folder": "https://drive.google.com/drive/folders/18tDTgmaFvoRGlEBCSrS4ENbUJwdIrXpU",
+        "manuscript": "https://drive.google.com/file/d/1ShjDlOqowNkavMJnMY_xoXjrlubH_z8m/view",
+        "archive": "https://drive.google.com/file/d/1CLSvyUsF_8GEDgRhtYlVLMAAD3PWdXmE/view",
+        "github": "https://github.com/cocozero003/Herbal-self-eval-with-genAI/tree/thaiherb-p2-manuscript-internal-robustness-v1.4-20261107"
+      }
+    },
+    {
+      "paper": 3,
+      "version": "v1.1",
+      "stage": "AUTHOR_REVIEW_RDF_ENGINEERING",
+      "assertions": 208,
+      "rdf_triples": {
+        "M1": 207,
+        "M2": 1501,
+        "M3": 2733
+      },
+      "shacl_core": "PASS_PROJECT_PROFILE",
+      "expert_gold_count": 0,
+      "critical_gate": "No independently adjudicated semantic QA accuracy",
+      "urls": {
+        "drive_folder": "https://drive.google.com/drive/folders/1bp-UKpXrDDMCpBiNt8370MC-KnGBNBAm",
+        "manuscript": "https://drive.google.com/file/d/18Wlx3lA5EsK-UE6mwLQjPHH7cJzssOaK/view",
+        "archive": "https://drive.google.com/file/d/123i4IuxLSuk1G5Vtej0orZHZOpPLHbKg/view",
+        "github": "https://github.com/cocozero003/Herbal-self-eval-with-genAI/tree/thaiherb-p3-engineering-manuscript-v1.1-20261107",
+        "shacl": "https://github.com/cocozero003/Herbal-self-eval-with-genAI/actions/runs/42362561018"
+      }
+    }
+  ],
+  "release_controls": {
+    "manuscript_stages": "author review only",
+    "new_experiments": false,
+    "main_branch_modified": false
+  }
+}
