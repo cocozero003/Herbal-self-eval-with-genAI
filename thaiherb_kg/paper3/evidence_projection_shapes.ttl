@@ -1,0 +1,16 @@
+@prefix ex: <https://example.org/thaiherb/ontology/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+# Validation for THIS lossy projection only. Separate full V3 shapes still required.
+ex:AssertionShape a sh:NodeShape ;
+  sh:targetClass ex:EvidenceAssertion ;
+  sh:property [ sh:path ex:subject ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+  sh:property [ sh:path ex:predicate ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+  sh:property [ sh:path ex:object ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ;
+  sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ; sh:nodeKind sh:IRI ] .
+
+ex:PharmacologyShape a sh:NodeShape ;
+  sh:targetClass ex:PharmacologyTargetAssertion ;
+  sh:property [ sh:path ex:hasTarget ; sh:minCount 1 ; sh:nodeKind sh:IRI ] ;
+  sh:property [ sh:path ex:directness ; sh:minCount 1 ] .
